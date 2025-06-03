@@ -67,8 +67,10 @@ if (Test-Path -Path ".venv\Scripts\Activate.ps1" -PathType Leaf) {
 }
 
 # Launch VSCodium and wait until it closes
-Write-Host "Opening folder in VSCodium..."
-Start-Process codium -ArgumentList "." -Wait
+Write-Host "Opening folder in VSCode..."
+Start-Process code -ArgumentList "." -Wait
+# Write-Host "Opening folder in VSCodium..."
+# Start-Process codium -ArgumentList "." -Wait
 
 # Deactivate virtual environment if available
 if (Get-Command deactivate -ErrorAction SilentlyContinue) {
