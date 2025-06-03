@@ -1,5 +1,5 @@
 # Python-Project-Launch
-Helper for starting a python project in VSCode or VSCodium in virtual environment
+A helper for starting a python project in VSCode or VSCodium in virtual environment - in Windows.
 ## How to use
 1. Place the folder anywhere you like.
 2. Create a shortcut for the open_vscode_env.bat file, e.g. on Desktop.
