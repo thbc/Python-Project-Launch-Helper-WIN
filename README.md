@@ -8,4 +8,4 @@ A helper for starting a python project in VSCode or VSCodium in virtual environm
 
 
 ## Change from VSCode to VSCodium
-In the line "Start-Process code -ArgumentList "." -Wait" change "Start-Process code" to "Start-Process codium. Now it should open the project in your VSCodium installation.
+In the line `Start-Process code -ArgumentList "." -Wait` change `Start-Process code` to `Start-Process codium`. Now it should open the project in your VSCodium installation.
